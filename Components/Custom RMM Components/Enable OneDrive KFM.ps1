@@ -1,3 +1,25 @@
+###
+# File: \Enable OneDrive KFM.ps1
+# Project: Custom RMM Components
+# Created Date: Tuesday, August 2nd 2022, 10:37:14 am
+# Author: Chris Jantzen
+# -----
+# Last Modified: Mon Mar 06 2023
+# Modified By: Chris Jantzen
+# -----
+# Copyright (c) 2023 Sea to Sky Network Solutions
+# License: MIT License
+# -----
+# 
+# HISTORY:
+# Date      	By	Comments
+# ----------	---	----------------------------------------------------------
+###
+
+###########
+# Requires a variable TenantID, type String, that is set to the O365 Tenant ID of the customer
+###########
+
 # Enables local backups in OneDrive.
 $regPath = "HKLM:\SOFTWARE\Policies\Microsoft\OneDrive"
 $TenantID = $env:TenantID

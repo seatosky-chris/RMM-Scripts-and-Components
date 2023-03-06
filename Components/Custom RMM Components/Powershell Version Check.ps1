@@ -1,3 +1,21 @@
+###
+# File: \Powershell Version Check.ps1
+# Project: Components
+# Created Date: Tuesday, August 2nd 2022, 10:37:14 am
+# Author: Chris Jantzen
+# -----
+# Last Modified: Mon Mar 06 2023
+# Modified By: Chris Jantzen
+# -----
+# Copyright (c) 2023 Sea to Sky Network Solutions
+# License: MIT License
+# -----
+# 
+# HISTORY:
+# Date      	By	Comments
+# ----------	---	----------------------------------------------------------
+###
+
 <# 
 Checks to see what version of powershell a device has. If it is below version 5.1 it throws an error.
 If you find devices with an older version of powershell, you can use the Chocolatey component to upgrade to 5.1. Use the Applications argument: "powershell", NewApplications = True, UpdateApplications = False.
@@ -9,6 +27,9 @@ The following versions of Windows should not be upgraded:
 - Microsoft Lync Server 2013
 - Microsoft Lync Server 2010
 - System Center 2012 R2 Service Management Automation 
+
+Post condition suggested:
+- Warning text: Alert: Running an old version.  (qualifier: Is found in, resource: StdOut & StdErr)
 #>
 
 # Gets a devices powershell version

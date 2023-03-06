@@ -1,3 +1,21 @@
+###
+# File: \Dell - Bios Password Check.ps1
+# Project: Custom RMM Components
+# Created Date: Tuesday, August 2nd 2022, 10:37:13 am
+# Author: Chris Jantzen
+# -----
+# Last Modified: Mon Mar 06 2023
+# Modified By: Chris Jantzen
+# -----
+# Copyright (c) 2023 Sea to Sky Network Solutions
+# License: MIT License
+# -----
+# 
+# HISTORY:
+# Date      	By	Comments
+# ----------	---	----------------------------------------------------------
+###
+
 # This checks if a computer has a bios password and sets UDF 16 to true or false depending on the result. This will only work on Dell computers.
 
 $Customfield="Custom16"

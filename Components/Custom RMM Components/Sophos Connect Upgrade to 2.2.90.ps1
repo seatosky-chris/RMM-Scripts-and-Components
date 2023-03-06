@@ -20,7 +20,7 @@
 # Download the Sophos Connect client from https://www.sophos.com/en-us/support/downloads/utm-downloads and attach the file
 # if the version has changed, you will need to update the file name in the script below
 
-$LogLocation = "C:\STS" # Update this log location
+$LogLocation = "C:\STS" # Replace with your preferred log location
 ######################
  
 # Thanks to Giga on MSPGeek's Discord for this code that kills any open Sophos VPN connections

@@ -1,7 +1,7 @@
 $DattoAPI = @{
-	Key = "IRUPDJ4V4FQD614LD902MBNC2N895IUK"
-	SecretKey = "H79KCIQQEU7KLEBDEB4R81NSKQCKMNHD"
-	URL = "https://zinfandel-api.centrastage.net"
+	Url        =  '<RMM API URL>'
+    Key        =  '<RMM API KEY>'
+    SecretKey  =  '<RMM API SECRET KEY>'
 }
 $DattoAPIRegion = "zinfandel"
 
